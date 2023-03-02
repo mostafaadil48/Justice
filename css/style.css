@@ -1,0 +1,746 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.poppins {
+    font-family: Poppins, sans-serif;
+}
+
+.play {
+    font-family: "Playfair Display SC", serif;
+}
+
+.top-bar {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.top-bar-cont {
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.top-bar-cont span {
+    color: rgb(255, 255, 255);
+    font-family: Poppins, sans-serif;
+}
+
+.top-bar-cont i {
+    color: rgb(255, 255, 255);
+}
+
+.top-bar-cont a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Poppins, sans-serif;
+}
+
+.header {
+    background: rgb(28, 28, 35);
+    padding: 10px 0px;
+}
+
+.navbar-brand {
+    width: 18%;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-brand:hover {
+    opacity: 0.7;
+}
+
+.nav-link:hover {
+    color: rgb(255, 102, 102);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-cont {
+    color: rgb(255, 255, 255);
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.nav-icon {
+    color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.nav-icon:hover {
+    color: rgb(255, 102, 102);
+}
+
+.banner {
+    background-image: url("../Images/justice banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(76, 76, 76, 0.12) 34%, rgba(76, 76, 76, 0.17) 35%, rgba(67, 67, 67, 0.7) 45%, rgba(17, 17, 17, 0.7) 99%, rgba(19, 19, 19, 0.7) 100%, rgba(43, 43, 43, 0.7) 101%);
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.banner-vh {
+    min-height: 100vh;
+    align-items: center;
+}
+
+.banner p {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 102, 102);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner h1 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.banner span {
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 1px;
+    width: 16%;
+}
+
+.banner span {
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 16%;
+    margin-bottom: 2px;
+}
+
+.banner-p p {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 31px;
+    margin-bottom: 47px;
+    line-height: 25px;
+}
+
+.btn-banner {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 15px 35px;
+    transition: all 0.5s ease-in-out 0s;
+    font-family: Poppins, sans-serif;
+}
+
+.btn-banner:hover {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.choose {
+    padding: 70px 15px;
+}
+
+.choose p {
+    color: rgb(216, 42, 42);
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.choose h2 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.choose-cont p {
+    color: rgb(116, 116, 116);
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.choose-info {
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 25px;
+}
+
+.choose-info h1 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+    color: rgb(79, 79, 79);
+}
+
+.practice {
+    padding: 70px 15px;
+    background: rgb(250, 245, 245);
+}
+
+.blanc2 {
+    width: 7%;
+    text-align: center;
+    margin: auto;
+}
+
+.practice h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.practice p {
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    margin-bottom: 40px;
+}
+
+.practice-info {
+    padding: 40px 20px;
+    border: 1px solid rgb(223, 219, 219);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.practice-info img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.practice-info h3 {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.practice-info p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.practice-info:hover {
+    background-color: rgb(240, 220, 220);
+    border: 1px solid rgb(216, 42, 42);
+}
+
+.services {
+    background-image: url("../Images/justice-03.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 35px 15px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 0;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.s-vh {
+    min-height: 50vh;
+    align-items: center;
+}
+
+.services-cont .p {
+    margin-bottom: 0px;
+    color: rgb(216, 42, 42) !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.services-cont p {
+    margin-top: 35px;
+    margin-bottom: 38px;
+    color: rgb(164, 158, 158) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.services-cont h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.services-cont span {
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 10%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2px !important;
+}
+
+.ser-p {
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-services {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 15px 35px;
+    transition: all 0.5s ease-in-out 0s;
+    font-family: Poppins, sans-serif;
+}
+
+.btn-services:hover {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+/* case css */
+.case-info p{
+    color: #000 !important;
+    font-size: 25px;
+}
+.case{
+    padding: 70px 15px;
+}
+.case h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.case p {
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    margin-bottom: 40px;
+}
+.testimonials-cont{
+    text-align: center;
+}
+.case-logo img{
+    width: 7% !important;
+    margin-bottom: 35px;
+    display: inline !important;
+}
+.case-cont{
+    padding: 30px;
+    background: #F4F4F4;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+.case-cont p{
+    margin-bottom: 0;
+}
+.case-man-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.case-pic{
+    width: 12%;
+    display: block;
+}
+.case-pic img{
+    border-radius: 50%;
+}
+.man-info{
+    
+    margin-left: 20px;
+}
+.man-info h5{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+}
+.man-info h6{
+    color: #D82A2A;
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background: #C6CCD0;
+    border-radius: 50px;
+    margin: 5px;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* bottom: 2%; */
+}
+.owl-dots .owl-dot.active span{
+    background: #000;
+}
+.form-control{
+    border: none;
+}
+.form-main{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control input{
+    width: 100%;
+    border: none;
+    background: #F9F9F9;
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    outline: none;
+    color: #000;
+}
+.form-control textarea{
+    width: 100%;
+    border: none;
+    background: #F9F9F9;
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    outline: none;
+    color: #000;
+}
+.form-control input[type="submit"]{
+    padding: 11px 0;
+    background: #db1616;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    height: 45px;
+    width: 32%;
+    border-radius: 31px;
+    font-weight: 600;
+    word-spacing: 2px;
+    transition: .3s all ease-in-out;
+    font-size: 13px;
+    line-height: 22px;
+}
+.form-first{
+    width: 48%;
+}
+.form-last{
+    width: 48%;
+}
+.form-control input[type="submit"]:hover{
+    background: #000;
+}
+/* attorneys css */
+.attorneys{background: #F5F5F5;padding: 70px 10px;}
+.attorneys-head{
+    display: flex;
+}
+.attorneys-head h2{ 
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.attorneys-head p{
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    margin-bottom: 40px;
+}
+.oew-member-info{
+    padding: 25px 18px;
+    background: #fff;
+}
+.oew-member-name h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.oew-member-role p{
+    font-size: 15px;
+    color: #D82A2A;
+    margin-bottom: 15px;
+}
+.oew-member-dec p{
+    color: #545454;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.oew-member-icon ul{
+    display: flex;
+    align-items: center;
+}
+.oew-member-icon ul li{
+    list-style: none;
+}
+.oew-member-icon ul li a{
+    font-size: 20px;
+    color: #353333;
+    transition: .3s all ease-in-out;
+}
+.oew-member-icon ul li a:hover{
+    color: #db1616;
+}
+.member-icon-margin{
+    margin-left: 15px;
+}
+/* news css */
+.news{
+    padding: 70px 10px;
+    position: relative;
+}
+.news-info{
+    background: #F5F5F5;
+    padding: 15px 5px;
+}
+.news-info p{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.news-info a{
+    text-decoration: none;
+    color: #333;
+    font-family: Poppins, sans-serif;
+}
+.learn-more{
+    border-bottom: 1px solid #333;
+    transition: .4s all ease-in-out;
+}
+.learn-more:hover{
+    color: #db1616;
+    border-bottom: 1px solid #db1616;
+}
+.news-title a{
+    text-decoration: none !important;
+    color: #333;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Playfair Display SC", serif;
+    transition: .4s all ease-in-out;
+}
+.news-title a:hover{
+    color: #db1616;
+
+}
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -12%;
+    transform: translateX(-50%);
+}
+.news-pd{
+    padding: 0 20px;
+}
+.news-carousel .owl-nav .owl-prev{position: absolute;
+    left: -1%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 35px;
+    width: 35px;
+    color: #000 !important;
+    font-size: 35px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-carousel .owl-nav .owl-next{position: absolute;
+    right: -1%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 35px;
+    width: 35px;
+    color: #000 !important;
+    font-size: 35px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* contacs css */
+.contact{
+    background: #1C1C23;
+    padding: 70px 10px;
+}
+.con-logo img{
+    width: 65%;
+}
+.con-logo p{
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+.con-loc-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.con-loc-icon i{
+    color: #D30D0D;
+    margin-right: 15px;
+}
+.con-loc-icon p{
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+}
+.information h2{
+    font-size: 20px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+.NEWSLETTER h2{
+    font-size: 20px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+.info-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.info-icon i{
+    margin-right: 15px;
+    color: #fff;
+}
+.info-icon p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+form{
+    background: #fff;
+    border-radius: 7px;
+}
+form input{ 
+    height: 50px;
+    border: none; 
+    padding: 0 15px;
+    outline: none;
+    color: #D30D0D;
+}
+form input::placeholder{
+    font-size: 15px;
+    
+}
+.justice_newsletter form input[type="email"]{
+    border-radius: 8px;
+    width: 79%;
+
+}
+form input[type="submit"]{
+    width: 20%;
+    background: #D82A2A;
+    height: 30px;
+    width: 58px;
+    border-radius: 4px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    transition: .4s all ease-in-out;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+form input[type="submit"]:hover{
+    background: #000;
+    color: #fff;
+}
+.checkbox p{
+    color: #fff;
+    font-size: 12px !important;
+    margin-left: 10px;
+}
+footer{background: #15151B;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.footer-cont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-cont p{
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+.footer-cont a{
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
